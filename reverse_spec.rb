@@ -1,4 +1,7 @@
 require 'rspec'
+require 'rantly'
+require 'rantly/rspec_extensions'
+require 'rantly/shrinks'
 
 describe 'Reverse Arrays' do
 
@@ -6,4 +9,5 @@ describe 'Reverse Arrays' do
 
     expect(true).to eq(true)
   end
+
 end
